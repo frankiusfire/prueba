@@ -1,0 +1,36 @@
+{
+  "name": "dota2results",
+  "version": "0.1.0",
+  "author": "Drew Harry <drew.harry@gmail.com>",
+  "description": "a twitter bot that auto-posts results of professional Dota 2 matches",
+  "contributors": [
+    {
+      "name": "Drew Hary",
+      "email": "drew.harry@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node ./dota2results.js",
+    "demo": "node ./dota2results.js demo",
+    "silent": "node ./dota2results.js silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drewww/dota2results.git"
+  },
+  "dependencies": {
+    "twit": "1.1.20",
+    "winston": "0.7.x",
+    "request": "2.x",
+    "dazzle": "*",
+    "underscore": "*",
+    "redis": "*",
+    "mandrill-api": "1.x",
+    "canvas": "~1.1.4",
+    "async":"~0.9"
+  },
+  "license": "GPL v2",
+  "engines": {
+    "node": "~0.10"
+  }
+}

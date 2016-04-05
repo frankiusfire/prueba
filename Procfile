@@ -1,0 +1,1 @@
+worker: node dota2results.js
